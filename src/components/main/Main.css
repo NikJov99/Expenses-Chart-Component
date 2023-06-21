@@ -1,0 +1,46 @@
+main {
+  background-color: var(--veryPaleOrange);
+  width: 100%;
+  border-radius: 20px;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+}
+
+main p {
+  color: var(--mediumBrown);
+}
+
+main h1,
+h2,
+span {
+  color: var(--darkBrown);
+  font-weight: 700;
+}
+
+.spending-heading {
+  margin-bottom: 2rem;
+}
+
+.total-this-month {
+  font-size: 3rem;
+}
+
+hr {
+  height: 1.5px;
+  border: none;
+  background-color: var(--cream);
+  margin: 2rem 0;
+}
+
+.monthly-balances {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+}
+
+@media only screen and (max-width: 350px) {
+  .total-this-month {
+    font-size: 2rem;
+  }
+}
