@@ -16,6 +16,8 @@ const ChartComponent = () => {
   const amounts = data.map((item) => item.amount);
   const highestAmount = Math.max(...amounts);
 
+  
+
   const chartData = {
     labels: labels,
     datasets: [
